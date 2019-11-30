@@ -1,0 +1,61 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+.blackBackgroundContainer {
+    background-color: black;
+    height: 300px;
+    width: fit-content;
+}
+.movieDataContainer {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+.moreFilmsTotal {
+    text-align: center;
+    padding-top: 40%;
+    color: yellow;
+    font-size: xx-large;
+    display: inline;
+}
+.filmsTotal {
+    text-align: center;
+    padding-top: 40%;
+    color: red;
+    font-size: xx-large;
+    display: inline;
+}
+.boxOfficeTotal {
+    text-align: center;
+    padding-top: 40%;
+    color: green;
+    font-size: xx-large;
+    display: inline;
+}
+.text {
+    color: white;
+    font-size: small;
+    text-align: center;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.pieChart {
+    width: 100%;
+}
+/* Structure */
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+table {
+    width: 100%;
+  }
+  
+.mat-form-field {
+font-size: 18px;
+text-align: right;
+}
+
+.mat-form-field-appearance-outline{
+    color: black;
+}
+input.mat-input-element {
+    color: black;
+  }
